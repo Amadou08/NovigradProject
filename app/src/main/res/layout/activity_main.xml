@@ -7,9 +7,13 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/welcome_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:fontFamily="sans-serif-black"
+        android:padding="12dp"
+        android:text="Welcome John! You are logged in as ADMIN"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
