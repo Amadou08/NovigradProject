@@ -95,7 +95,7 @@
         android:background="@drawable/rounded_edges"
         android:gravity="center"
         android:onClick="createNewAccount"
-        android:text="Create A New Account"
+        android:text="Sign Up"
         android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

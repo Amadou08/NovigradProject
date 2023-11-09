@@ -16,7 +16,7 @@
         android:ems="10"
         android:gravity="center_vertical"
         android:hint="Name"
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:textSize="20sp"
@@ -53,7 +53,7 @@
         app:srcCompat="@drawable/ic_novigrad_building" />
 
     <EditText
-        android:id="@+id/signUp_emailEntry"
+        android:id="@+id/signUp_usernameEntry"
         android:layout_width="275dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -62,8 +62,8 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:gravity="center_vertical"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
+        android:hint="UserName"
+        android:inputType="textPersonName"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:textSize="20sp"
@@ -88,7 +88,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signUp_emailEntry" />
+        app:layout_constraintTop_toBottomOf="@+id/signUp_usernameEntry" />
 
     <EditText
         android:id="@+id/signUp_passwordConfirm"
@@ -143,8 +143,7 @@
         android:layout_marginBottom="64dp"
         android:background="@drawable/rounded_edges"
         android:gravity="center"
-        android:onClick="logInInstead"
-        android:text="Login instead"
+        android:text="Login"
         android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
